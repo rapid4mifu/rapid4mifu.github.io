@@ -5,16 +5,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>rapid4mifu.github.io</title>
+    <script type="module" src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"></script>
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
         <div class="col">
-          <script type="module" src="https://unpkg.com/esp-web-tools@9.2.0/dist/web/install-button.js?module"></script>
           <label>test</label>
           <esp-web-install-button manifest="firmwares/m5stick-c/manifest.json"></esp-web-install-button>
         </div>
-        <div class="col">
+        <div class="col-12">
+          <div class="footer">
+            Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a>.
+          </div>
         </div>
       </div>
     </div>
