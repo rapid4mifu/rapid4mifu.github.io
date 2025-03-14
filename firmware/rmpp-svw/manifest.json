@@ -1,6 +1,6 @@
 {
-	"name": "Railway Model Power Pack for ATOM Lite",
-	"version": "20250310",
+	"name": "Railway model power pack Simple function via web browser for ATOM Lite",
+	"version": "20250314",
 	"new_install_prompt_erase": true,
 	"builds": [
 		{
